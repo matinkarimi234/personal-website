@@ -1,0 +1,25 @@
+.Footer{
+    border-top: 1px solid rgba(179,179,179,0.5);
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+.Footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.Footer ul li{
+    list-style: none;
+    padding: 80px 30px;
+}
+.Footer span.copyright{
+    color: var(--lightgrey);
+    font-size:var(--bodyFontSize);
+    line-height:var(--bodyLineHeight);
+    padding-bottom: 80px;
+    padding-left: 10px;
+}

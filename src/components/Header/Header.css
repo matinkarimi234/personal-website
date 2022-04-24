@@ -1,0 +1,36 @@
+.Header{
+    max-width: 1567px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 43px 0;
+}
+
+.Header nav {
+    flex-grow: 1;
+}
+
+.Header nav ul{
+    display: flex;
+    justify-content: center;
+}
+.Header nav ul li{
+    list-style: none;
+}
+.Header nav ul a{
+    color: var(--grey);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 28px;
+    transition-duration: 400ms;
+}
+.Header nav ul li a:hover, .Header nav ul li.active a{
+    color: var(--primary)
+}
+
+.Header img {
+    max-width: 100px;
+    padding-right: 85px;
+}
